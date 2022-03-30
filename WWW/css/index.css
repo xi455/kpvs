@@ -1,0 +1,385 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+*{
+    font-family: 微軟正黑體;
+}
+
+.fw{
+    font-weight: bold;
+}
+
+strong{
+    color: #ff5c33;
+}
+
+.r_body{
+    border: solid 3px #2f1b0f;
+    border-radius: 20px;
+    width: 280px;
+    height: 350px;
+    background-color: rgba(255,255,255,0.9);
+    z-index: 998;
+    position: fixed;
+    right: 78px;
+    bottom: 178px;
+    padding: 6px;
+}
+
+#rsay_to{
+    height: 69%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.r_photo{
+    width: 40px;
+    height: 40px;
+    margin-left: 27px;
+    margin-top: 10px;
+}
+
+.r_pic{
+    width: 40px;    
+    height: 40px;
+    margin-left: 7px;
+}
+
+.r_p{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding-top: 9px;
+    color: #fff;
+    background-color: #2f1b0f;
+    border-radius: 100%;
+    margin-left: 7px;
+    margin-top: 40px;
+}
+
+.talk{
+    background-color: #2f1b0f;
+    border-radius: 7px 7px 0px 7px;
+    color: #fff;
+    margin-top: 20px;
+    padding: 7px;
+    
+}
+
+.r_hi{
+    width: 62%;
+    padding: 7px;
+    background-color: #e1e1e1;
+    border-radius: 0px 7px 7px 7px;
+    margin-left: 7px;
+    margin-top: 20px;
+}
+
+.robot_pic{
+    background-image: url(../images/robot.png);
+    background-size: cover;
+}
+
+.robot_top{
+    z-index: 998;
+    width: 80px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 20px;
+    bottom: 21px;
+}
+
+.robot_top span{
+    width: 70px;
+    height: 70px;
+    border:solid 3px #fff;
+    border-radius: 100%;
+    background-color: #2f1b0f;
+    text-align: center;
+    padding-top: 21px;
+    font-size: 22px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.noline,.noline:hover{
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+    display: block;
+}
+
+.rr_div{
+    margin-left: 100px;
+}
+
+.r_div{
+    margin-left: 7px;
+}
+
+.r_c{
+    position: fixed;
+    bottom: 232px;
+    margin-left: 30px;
+}
+
+.r_c .btn-success{
+    font-size: 17px;
+}
+
+.r_box{
+    position: fixed;
+    bottom: 190px;
+    margin-left: 1px;
+}
+
+.r_text{
+    padding: 5px;
+    border-radius: 20px;
+    background-color: #e1e1e1;
+    border:none;
+    width: 259px;
+
+}
+
+.mbox{
+    padding: 0;
+    margin: 0;
+    border-top: 5px solid #2f1b0f;
+    border-bottom: 5px solid #2f1b0f;
+}
+
+.mbox .close{
+    position: absolute;
+    color: #fff;
+    top: 20px;
+    right: 20px;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.container{
+    width: 80%;
+}
+
+.btn-main1{
+    border:none;
+    background-color: rgba(255,255,255,0);
+    font-size: 42px;
+    letter-spacing: 15px;
+    color: #2f1b0f;
+    font-weight: bold;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.btn-main1:hover{
+    transition: 0.5s;
+    cursor: pointer;
+    margin-left: 37px;
+    color:#509785;
+    border-bottom: #509785 solid 6px;
+}
+
+.btn-main2{
+    border:none;
+    background-color: rgba(255,255,255,0);
+    font-size: 42px;
+    letter-spacing: 15px;
+    color: #2f1b0f;
+    font-weight: bold;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.btn-main2:hover{
+    transition: 0.5s;
+    cursor: pointer;
+    margin-left: 37px;
+    color:#ca9525;
+    border-bottom: #ca9525 solid 6px;
+}
+
+.btn-main3{
+    border:none;
+    background-color: rgba(255,255,255,0);
+    font-size: 42px;
+    letter-spacing: 15px;
+    color: #2f1b0f;
+    font-weight: bold;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.btn-main3:hover{
+    transition: 0.5s;
+    cursor: pointer;
+    margin-left: 37px;
+    border-bottom: #2f1b0f solid 6px;
+    color:#014689;
+    border-bottom: #014689 solid 6px;
+}
+
+.btn-main4{
+    border:none;
+    background-color: rgba(255,255,255,0);
+    font-size: 42px;
+    letter-spacing: 15px;
+    color: #2f1b0f;
+    font-weight: bold;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.btn-main4:hover{
+    transition: 0.5s;
+    cursor: pointer;
+    margin-left: 37px;
+    border-bottom: #2f1b0f solid 6px;
+    color:#EB5273;
+    border-bottom: #EB5273 solid 6px;
+}
+
+#sebox{
+    max-width: 120px;
+}
+
+.carousel-caption{
+    left: 20%;
+    bottom: 7%;
+}
+
+.cc{
+    background-position: center 5px;
+    margin: -0.1% 5%;
+}
+
+.page1{
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.page2{
+    background-image: url(../images/order_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 980px;
+}
+
+.map{
+    border-radius: 25px;
+    margin-left: 100px;
+    margin-bottom: 70px;
+}
+
+.inshadow .shadow_o,.inshadow .shadow_c{
+    margin-top: 100px;
+    text-shadow: rgba(255,255,255,0.5)0px 3px 3px;
+    font-size: 6vw;
+    letter-spacing: 15px;
+    -webkit-background-clip: text;
+    color:transparent;
+    font-weight: bold;
+}
+
+.inshadow .shadow_o{
+    background-color: #693415;
+}
+
+.inshadow .shadow_c{
+    background-color: #693415;
+}
+
+.about-img{
+    margin-top: 40px;
+    width: 700px;
+    height: 700px;
+    margin-left: -200px;
+    border-radius: 0px 100px 0px 100px;
+}
+
+.story-text{
+    padding-top: 32px;
+    line-height:40px;
+}
+
+.page3{
+    background-image: url(../images/active-img.jpg);
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.page4{
+    background-image: url(../images/footer-bg.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 980px;
+}
+
+.card-body{
+    padding: 0;
+    padding-bottom: 30px;
+    margin: 0;
+}
+
+.act-btn{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 7px 20px;
+    border-radius: 10px;
+    border:solid 4px #2f1b0f;
+    color: #2f1b0f;
+    background-color: rgba(255,255,255,0);
+    transition: 0.5s;
+}
+
+.act-btn:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: #2f1b0f;
+    color: #fff;
+}
+
+.linet,.linet:hover{
+    text-decoration: none;
+    color: #2f1b0f;
+    cursor: pointer;
+}
+
+.btn-rr{
+    font-size: 17px;
+    background-color: rgba(255,255,255,0);
+    color: #2f1b0f;
+    font-weight: bold;
+    padding: 7px 12px;
+    border-radius: 7px;
+    border:solid 3px #2f1b0f;
+    transition: 0.5s;
+}
+
+.btn-rr:hover{
+    transition: 0.5s;
+    cursor: pointer;
+    background-color: #2f1b0f;
+    color: #fff;
+}
+
+footer{
+    background-color: #bfcab8;
+    color: #2f1b0f;
+    font-weight: bold;
+    padding-top: 20px;
+}
