@@ -19,7 +19,7 @@ $('.carousel').carousel({
 
 $('.nav-link,a').click(function(){
     var t=$(this).attr('href');
-    var st=$(t).offset().top-0;
+    var st=$(t).offset().top-40;
     $('html,body').animate({
         scrollTop:st
     },500);
@@ -93,7 +93,7 @@ function answer(s){
             $('#rsay_to').append(QA());
         };
         if(s==0){
-            $('#rsay_to').append('<div class="row r_div"><img src="images/robot.png" class="r_pic"><div class="r_hi">讓我為您隆重介紹三重社大！<br>'+getDate()+'</div></div>');
+            $('#rsay_to').append('<div class="row r_div"><img src="images/robot.png" class="r_pic"><div class="r_hi">讓我告訴您秀英花究竟在哪！<br>'+getDate()+'</div></div>');
             var t=$('#about').offset().top-50;
             $('html,body').animate({
                 scrollTop:t
@@ -107,7 +107,7 @@ function answer(s){
             },500);
         };
         if(s==2){
-            $('#rsay_to').append('<div class="row r_div"><img src="images/robot.png" class="r_pic"><div class="r_hi">這裡是有關親子營的相關敘述！<br>'+getDate()+'</div></div>');
+            $('#rsay_to').append('<div class="row r_div"><img src="images/robot.png" class="r_pic"><div class="r_hi">這裡是有關活動的相關敘述！<br>'+getDate()+'</div></div>');
             var t=$('#order').offset().top-50;
             $('html,body').animate({
                 scrollTop:t

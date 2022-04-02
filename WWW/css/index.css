@@ -14,6 +14,64 @@ strong{
     color: #ff5c33;
 }
 
+.navbar{
+    border-radius: 50px;
+    margin: 12px 100px;
+    background-image: url(../images/logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
+.cc{
+    background-position: right;
+    margin: -0.1% 5%;
+}
+
+@media(max-width:1500px){
+    .text-width{
+        width: 100% !important;
+    }
+    #story{
+      background-image: none;
+      height: 600px !important;
+    }
+    .card{
+        width: 300px !important;
+        margin: auto !important;
+    }
+}
+
+@media(max-width:770px){
+    .map{
+        width: 500px !important;
+        margin-left: 0px !important;
+      }
+    .about-img{
+        width: 450px !important;
+        height: 450px !important;
+        padding: 0px !important;
+    }
+    .xan{
+        margin-top: 20px;
+    }
+}
+
+.xan{
+    border-radius: 100px;
+    margin-bottom: 7px;
+}
+
+.text-width{
+    width: 80%;
+    font-size: 17px;
+    line-height: 42px;
+    padding-bottom: 60px;
+    margin: auto;
+}
+
 .r_body{
     border: solid 3px #2f1b0f;
     border-radius: 20px;
@@ -68,7 +126,7 @@ strong{
 }
 
 .r_hi{
-    width: 62%;
+    width: 64%;
     padding: 7px;
     background-color: #e1e1e1;
     border-radius: 0px 7px 7px 7px;
@@ -170,84 +228,6 @@ body{
     width: 80%;
 }
 
-.btn-main1{
-    border:none;
-    background-color: rgba(255,255,255,0);
-    font-size: 42px;
-    letter-spacing: 15px;
-    color: #2f1b0f;
-    font-weight: bold;
-    transition: 0.5s;
-    z-index: 1;
-}
-
-.btn-main1:hover{
-    transition: 0.5s;
-    cursor: pointer;
-    margin-left: 37px;
-    color:#509785;
-    border-bottom: #509785 solid 6px;
-}
-
-.btn-main2{
-    border:none;
-    background-color: rgba(255,255,255,0);
-    font-size: 42px;
-    letter-spacing: 15px;
-    color: #2f1b0f;
-    font-weight: bold;
-    transition: 0.5s;
-    z-index: 1;
-}
-
-.btn-main2:hover{
-    transition: 0.5s;
-    cursor: pointer;
-    margin-left: 37px;
-    color:#ca9525;
-    border-bottom: #ca9525 solid 6px;
-}
-
-.btn-main3{
-    border:none;
-    background-color: rgba(255,255,255,0);
-    font-size: 42px;
-    letter-spacing: 15px;
-    color: #2f1b0f;
-    font-weight: bold;
-    transition: 0.5s;
-    z-index: 1;
-}
-
-.btn-main3:hover{
-    transition: 0.5s;
-    cursor: pointer;
-    margin-left: 37px;
-    border-bottom: #2f1b0f solid 6px;
-    color:#014689;
-    border-bottom: #014689 solid 6px;
-}
-
-.btn-main4{
-    border:none;
-    background-color: rgba(255,255,255,0);
-    font-size: 42px;
-    letter-spacing: 15px;
-    color: #2f1b0f;
-    font-weight: bold;
-    transition: 0.5s;
-    z-index: 1;
-}
-
-.btn-main4:hover{
-    transition: 0.5s;
-    cursor: pointer;
-    margin-left: 37px;
-    border-bottom: #2f1b0f solid 6px;
-    color:#EB5273;
-    border-bottom: #EB5273 solid 6px;
-}
-
 #sebox{
     max-width: 120px;
 }
@@ -257,30 +237,25 @@ body{
     bottom: 7%;
 }
 
-.cc{
-    background-position: center 5px;
-    margin: -0.1% 5%;
+.nav-link{
+    color: #2f1b10;
+    font-size: 23px;
+    font-weight: bold;
+    transition: 0.5s;
 }
 
-.page1{
-    background-position: top;
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    z-index: 1;
-}
 
 .page2{
     background-image: url(../images/order_bg.jpg);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     height: 980px;
 }
 
 .map{
-    border-radius: 25px;
     margin-left: 100px;
     margin-bottom: 70px;
+    width: 700px;
 }
 
 .inshadow .shadow_o,.inshadow .shadow_c{
@@ -302,16 +277,10 @@ body{
 }
 
 .about-img{
-    margin-top: 40px;
-    width: 700px;
-    height: 700px;
-    margin-left: -200px;
+    margin: 20% 0px;
+    width: 500px;
+    height: 500px;
     border-radius: 0px 100px 0px 100px;
-}
-
-.story-text{
-    padding-top: 32px;
-    line-height:40px;
 }
 
 .page3{
@@ -326,7 +295,7 @@ body{
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 980px;
+    height: 820px;
 }
 
 .card-body{
